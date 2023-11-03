@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title>JZ Airlines</title>
+	<style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        table {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+	<body bgcolor="#DDDDFF">
+	<font color="#020202">
+
+	<h1> JZ Airlines </h1>
+
+	<table>
+        <form action="http://localhost:40120/customer" method="post">
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                	<h2>Customer Login:</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>Login:</td>
+                <td><input type="text" name="loginname"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" name= "login" value="Login">
+                </td>
+            </tr>
+            <tr>
+            <td colspan="2" style="text-align: center;">
+                    <h2>OR</h2>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <h2>Register:</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>Pick a login name:</td>
+                <td><input type="text" name="registername"></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="regpassword"></td>
+            </tr>
+            <tr>
+                <td>Password confirm:</td>
+                <td><input type="password" name="regpassword2"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" name= "register" value="Register">
+                </td>
+            </tr>
+        </form>
+    </table>
+
+	</body>
+</html>
+
+
+
+

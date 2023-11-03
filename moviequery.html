@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Movie Search</title>
+	<style>
+        body {
+            display: flex;
+            /*justify-content: center;*/
+            /*align-items: center;*/
+            height: 100vh;
+            margin: 0;
+        }
+        table {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+	<body bgcolor="#DDDDFF">
+	<font color="#020202">
+
+	<h1> Movie Search </h1>
+    <form action="http://localhost:40120/moviequery" method="post">
+        Enter search word: <input type="text" name="word">
+        <input type="submit" value="Go">
+    </form>
+    </body>
+</html>
